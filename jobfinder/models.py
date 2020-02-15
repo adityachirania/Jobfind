@@ -38,3 +38,11 @@ class JobCategory(models.Model):
     Job = models.ForeignKey(Job,on_delete=models.CASCADE)
     Category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
+class JobConnection(models.Model):
+    Jobid =    models.ForeignKey(Job,on_delete=models.CASCADE)
+    Employer = models.ForeignKey(Profile,on_delete=models.CASCADE,related_name='employer')
+    Employee = models.ForeignKey(Profile,on_delete=models.CASCADE,related_name='employee')
+    Completed = models.BooleanField()
+
+
+

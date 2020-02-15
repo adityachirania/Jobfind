@@ -1,2 +1,2 @@
-# jobfind
+# Jobfind
 job matcher application

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JOBFINDER</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+       
+        <!-- first load django static tag. -->
+        {% load staticfiles %}
+		<!-- Bootstrap CSS -->
+		<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="{% static 'css/style.css' %}" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+	
+		<!-- wrapper -->
+		<div class="wrapper">
+			<!-- banner -->
+			<div class="banner">
+				<div class="container">
+					<!-- banner content -->
+					<div class="banner-content">
+						<!-- logo image -->
+						<a href="#"><img class="img-responsive" src="img/logo.png" alt="" /></a>
+						<!-- short paragraph -->
+						<h1 style = "color : white"><mark>JOBFINDER</mark></h1><br>
+                        <h3 style = "color : white"><mark>A site which matches seekers with providers</mark></h3><br>
+						<!-- button link -->
+                        <a href="register" class="btn btn-info btn-lg" style = "background-color:red">Register with us</a>
+                        <a href="login" class="btn btn-info btn-lg" style = "background-color:red">Login</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- feature block -->
+			<div class="feature">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<!-- feature item -->
+							<div class="feature-item">
+								<!-- icon -->
+								<i class="fa fa-crosshairs"></i>
+								<!-- heading -->
+								<h4>Add Jobs for others</h4>
+								<!-- paragraph -->
+								<p>You may add any job that you want to be completed on the site</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<!-- feature item -->
+							<div class="feature-item">
+								<!-- icon -->
+								<i class="fa fa-sitemap"></i>
+								<!-- heading -->
+								<h4>Search for a job you can do</h4>
+								<!-- paragraph -->
+								<p>You may browse through the many jobs added on the site</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<!-- feature item -->
+							<div class="feature-item">
+								<!-- icon -->
+								<i class="fa fa-terminal"></i>
+								<!-- heading -->
+								<h4>Get Recommendations</h4>
+								<!-- paragraph -->
+								<p>We can find good matches for you</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<!-- footer above social block -->
+			<div class="footer-above">
+				<div class="container">
+					<!-- footer above main content -->
+					<div class="above-content">
+						<!-- testimonial content / paragraph -->
+						<p class="post">"Believe passionately in what you do, and never knowingly compromise your standards and values. Act like a true professional, aiming for true excellence, and the money will follow."</p>
+						<!-- heading -->
+						<h4>Get In Touch With Social Media</h4>
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- footer -->
+			<footer>
+				<div class="container">
+					<!-- navigation link -->
+					<p class="nav-link"><a href="#">Contact</a> &nbsp;|&nbsp; <a href="#">Email</a> &nbsp;|&nbsp; <a href="#">Privacy Policy</a></p>
+					<!-- copy right -->
+					<!-- This theme comes under Creative Commons Attribution 4.0 Unported. So don't remove below link back -->
+					<!-- <p class="copy-right">Copyright &copy; 2014 <a href="#">Your Site</a> | Designed By : <a href="http://www.indioweb.in/portfolio">IndioWeb</a>, All rights reserved. </p> -->
+				</div>
+			</footer>
+			
+		</div>
+		
+		
+	
+	</body>	
+</html>

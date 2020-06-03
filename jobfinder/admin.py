@@ -13,3 +13,5 @@ admin.site.register(SkillSet)
 admin.site.register(JobCategory)
 admin.site.register(Job)
 admin.site.register(JobConnection)
+
+

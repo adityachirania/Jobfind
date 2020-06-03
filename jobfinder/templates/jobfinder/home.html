@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JOBFINDER</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+       
+        <!-- first load django static tag. -->
+        {% load staticfiles %}
+		<!-- Bootstrap CSS -->
+		<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="{% static 'css/style.css' %}" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+
+		<ul class="nav nav-pills" style="position:fixed; background-color:white; width:100%;" >
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Profile</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">option 2</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">option 3</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Founders</a>
+			</li>
+		</ul>
+	
+		<!-- wrapper -->
+		<div class="wrapper">
+			<!-- banner -->
+			<div class="banner">
+				<div class="container">
+					<!-- banner content -->
+					<div class="banner-content">
+						<!-- logo image -->
+						<a href="#"><img class="img-responsive" src="img/jobfind.jpg" alt="" /></a>
+						<!-- short paragraph -->
+						<h1 style = "color : white"><mark>Welcome to Jobfinder, {{user.username}}</mark></h1><br>
+						<!-- button link -->
+                        <a href="#" class="btn btn-info btn-lg" style = "background-color:red">Add a skill</a>
+						<a href="#" class="btn btn-info btn-lg" style = "background-color:red">Get recommendations</a>
+						<a href="#" class="btn btn-info btn-lg" style = "background-color:red">Add a job here</a>
+                        <a href="../logout" class="btn btn-info btn-lg" style = "background-color:red">Logout</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- feature block -->
+			<div class="feature">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<!-- feature item -->
+							<div class="feature-item">
+								<!-- icon -->
+								<i class="fa fa-crosshairs"></i>
+								<!-- heading -->
+								<h4>Add Jobs for others</h4>
+								<!-- paragraph -->
+								<p>You may add any job that you want to be completed on the site</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<!-- feature item -->
+							<div class="feature-item">
+								<!-- icon -->
+								<i class="fa fa-sitemap"></i>
+								<!-- heading -->
+								<h4>Search for a job you can do</h4>
+								<!-- paragraph -->
+								<p>You may browse through the many jobs added on the site</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<!-- feature item -->
+							<div class="feature-item">
+								<!-- icon -->
+								<i class="fa fa-terminal"></i>
+								<!-- heading -->
+								<h4>Get Recommendations</h4>
+								<!-- paragraph -->
+								<p>We can find good matches for you</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<!-- footer above social block -->
+			<div class="footer-above">
+				<div class="container">
+					<!-- footer above main content -->
+					<div class="above-content">
+						<!-- testimonial content / paragraph -->
+						<p class="post">"Believe passionately in what you do, and never knowingly compromise your standards and values. Act like a true professional, aiming for true excellence, and the money will follow."</p>
+						<!-- heading -->
+						<h4>Get In Touch With Social Media</h4>
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- footer -->
+			<footer>
+				<div class="container">
+					<!-- navigation link -->
+					<p class="nav-link"><a href="#">Contact</a> &nbsp;|&nbsp; <a href="#">Email</a> &nbsp;|&nbsp; <a href="#">Privacy Policy</a></p>
+					<!-- copy right -->
+					<!-- This theme comes under Creative Commons Attribution 4.0 Unported. So don't remove below link back -->
+					<!-- <p class="copy-right">Copyright &copy; 2014 <a href="#">Your Site</a> | Designed By : <a href="http://www.indioweb.in/portfolio">IndioWeb</a>, All rights reserved. </p> -->
+				</div>
+			</footer>
+			
+		</div>
+		
+		
+	
+	</body>	
+</html>

@@ -13,14 +13,14 @@ The aim of this project is to design a web application that enables users to fin
 1.Python version >= 3.5
 2.Django  version >= 2.2.9
 
-### Running instructions 
-1. Clone/download the repository 
-2.Change directories into your project file .
-3. Set up a virtual environment with the steps mentioned in the blog :  https://tutorial.djangogirls.org/en/django_installation/
-4.Run "python manage.py makemigrations jobfinder"
-5.Run "python manage.py migrate"
-6. All users on the site will not have admin access by default because they are clients. So to create a user with admin access run "python manage.py createsuperuser" and enter a username and password.
-7.Run it by "python manage.py runserver"
-8.Go to "localhost:PORT NO. " (Port no. is the port server runs on). This way you may experience the client portal . It has some things yet to complete which shall be added in the next version.
-9.Go to "localhost:PORT/admin" . This will lead you to the admin portal and is fully functional and does all CRUD operations and displays all records in a pleasent UI.You may login into this admin portal with superuser you have created.
+### Running instructions <br>
+1. Clone/download the repository <br>
+2.Change directories into your project file .<br>
+3. Set up a virtual environment with the steps mentioned in the blog : <br>  https://tutorial.djangogirls.org/en/django_installation/<br>
+4.Run "python manage.py makemigrations jobfinder"<br>
+5.Run "python manage.py migrate"<br>
+6. All users on the site will not have admin access by default because they are clients. So to create a user with admin access run "python manage.py createsuperuser" and enter a username and password.<br>
+7.Run it by "python manage.py runserver"<br>
+8.Go to "localhost:PORT NO. " (Port no. is the port server runs on). This way you may experience the client portal . It has some things yet to complete which shall be added in the next version.<br>
+9.Go to "localhost:PORT/admin" . This will lead you to the admin portal and is fully functional and does all CRUD operations and displays all records in a pleasent UI.You may login into this admin portal with superuser you have created.<br>
 

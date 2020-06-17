@@ -18,7 +18,7 @@ The aim of this project is to design a web application that enables users to fin
 
 2.Change directories into your project file .<br>
 
-3. Set up a virtual environment with the steps mentioned in the blog:https://tutorial.djangogirls.org/en/django_installation/<br>
+3.Set up a virtual environment with the steps mentioned in the blog:https://tutorial.djangogirls.org/en/django_installation/<br>
 
 4.Run "python manage.py makemigrations jobfinder"<br>
 
